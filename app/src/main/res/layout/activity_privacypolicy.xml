@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Privacypolicy">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-Voting application Privacy policy This privacy policy gives details on how the e-voting application manages and stores the information received by the application users. This application will process, and handle provided data in accordance with the Data Protection Act 1998. The application will provide transparency of where the data is used and will notify the users of any changes or updates made to the policies. What information do we collect? The application will collect the following information. 1.	Voter log in details such as email and password  2.	Contact details such as phone number 3.	Name 4.	Casted votes By aggreging to the e-voting application privacy policy you give the application the rights to manage and store the details provided. This data will be kept secured and not distributed to any third parties. How we protect the information? The application has procedure put in place to handle sensitive user information: •	Login details for authentication are stored securely using secure encryption schemes such as hashing which means even the admins running the application cannot view these details. •	Any personal details given to the application is stored on cloud server in encrypted format •	Application provides multiple authentication features to ensure that not their part gets access to your information   How do we use your data? The user data that the application stores is only used for user and vote verification purposes and not distributed to any third party. The user has the right to remove the information they provided to the application by deleting the account. If the account is deleted no information associated to the user will be stored which means that the user would not be able to participate in online voting. Contact Us? If there are any further questions that you want answered regarding the privacy policy you can contact us on the following email : mf00589@surrey.ac.uk.   "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
